@@ -1,0 +1,20 @@
+{
+    "name": "denisogr/marketing-client",
+    "description": "Marketing PdfFiller REST client for PHP. Work with Yii2.",
+    "homepage": "https://github.com/denisogr/marketingClient",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Porplenko",
+            "email": "porplenko.denis@gmail.com"
+        }
+
+    ],
+    "require": {
+        "lib-curl": "*",
+        "php": ">=5.2"
+    },
+    "autoload": {
+        "classmap": [""]
+    }
+}
