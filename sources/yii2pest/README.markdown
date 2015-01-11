@@ -1,4 +1,4 @@
-RESTFull PHP clicent for Yii2(server)
+RESTFull PHP client for Yii2(server)
 ====
 ***Add trait which replaced HEAD query (old implement not working) and add OPTION query.***
 
