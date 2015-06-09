@@ -14,10 +14,10 @@ class MarketingClient  extends Yii2Pest{
 
     protected $user;
 
-    function __construct(MarketingUser $user)
+    function __construct(MarketingUser $user, $url = self::API_URL)
     {
         $this->user = $user;
-        parent::__construct(self::API_URL);
+        parent::__construct($url);
 
         $this->setupAuth($this->user->getLogin(), 'foobar');
     }
